@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    
+}
+
+/* navabr starts */
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:cadetblue;
+    color: white;
+    position: sticky;
+    top:0;
+} 
+
+
+
+
+.logo{
+    width: 150px;
+    padding-left: 50px;
+}
+.search{
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn1{
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+/* heading starts */
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.animestore{
+    color: red;
+}
+.btn2{
+    padding-left: 30px;
+    padding-right: 30px; 
+   
+    margin: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+
+/* items start */
+
+@media(min-width:580px){
+    .items1{
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 5px;
+       
+    }
+}
+
+@media(max-width:580px){
+    .items1{
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 5px;
+        
+       
+    }
+}
+/* .items1{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    
+   
+} */
+@media(min-width:580px){
+    .card1{
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        margin-bottom: 30px;
+    } 
+}
+
+@media(max-width:580px){
+    .card1{
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        margin-bottom: 30px;
+    } 
+}
+/* .card1{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-bottom: 30px;
+}  */
+
+@media(min-width:580px){
+    .card2{
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:580px){
+    .card2{
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        margin-bottom: 30px;
+    }
+    } 
+
+/* .card2{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-bottom: 30px;
+} */
+
+.card3{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-bottom: 30px;
+}
+.card4{
+    margin-left: 70px;
+}
+.cart-logo{
+    margin-right: 10px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.item1{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.end{
+    border: 0.5px solid black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-img{
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    color: white;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:black;
+    border: none;
+    border-radius: 30px;
+  }
+  
